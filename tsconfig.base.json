@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": false,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "dom.Iterable", "esnext"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["jest", "node", "reflect-metadata"],
+    "baseUrl": ".",
+    "paths": {
+      "@my-wedding/*": ["apps/my-wedding/*"],
+      "@my-work/*": ["apps/my-work/src/*"],
+      "@tdo-ui/core": ["libs/core/src/index.ts"],
+      "@tdo-ui/core/*": ["libs/core/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
