@@ -23,7 +23,7 @@ export const Home = () => {
             </Heading>
             <Text size="2xl"> {t('To our wedding')}</Text>
             <Heading size="3xl" fontWeight="400">
-              {t('Tiến Đức & Trúc Linh')}
+              {t('Đức & Linh')}
             </Heading>
             <Text> {t('July 10, 2022')}</Text>
             <Heading
