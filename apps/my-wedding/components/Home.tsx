@@ -22,8 +22,8 @@ export const Home = () => {
               {t('Welcome')}
             </Heading>
             <Text size="2xl"> {t('To our wedding')}</Text>
-            <Heading size="3xl" fontWeight="400">
-              {t('Đức & Linh')}
+            <Heading textAlign="center" size="2xl" fontWeight="400">
+              {t('Tiến Đức & Trúc Linh')}
             </Heading>
             <Text> {t('July 10, 2022')}</Text>
             <Heading
