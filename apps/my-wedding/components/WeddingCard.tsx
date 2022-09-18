@@ -25,12 +25,12 @@ export const WeddingCard = () => {
       navigator.platform.indexOf('iPod') != -1
     ) {
       window.open(
-        'maps://goo.gl/maps/d3iDmtMbQXELNfak7'
+        'maps.app.goo.gl/2Nf3dwM1YtWqe4mg9?g_st=ic'
       );
     } else {
       /* else use Google */
       window.open(
-        'https://goo.gl/maps/d3iDmtMbQXELNfak7'
+        'https://maps.app.goo.gl/2Nf3dwM1YtWqe4mg9?g_st=ic'
       );
     }
   };
