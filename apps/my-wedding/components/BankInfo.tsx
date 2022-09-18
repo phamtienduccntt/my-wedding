@@ -113,6 +113,18 @@ export const BankInfoDrawer = () => {
               value={'000000205626'}
               breakRow
               canCopy
+            />              
+             <BankInputInfo label={t('Bank 2')} value={'Techcombank'} breakRow />
+            <BankInputInfo
+              label={t('Bank Name')}
+              value={'Pham Tien Duc'}
+              breakRow
+            />
+            <BankInputInfo
+              label={t('Bank Number')}
+              value={'19029883024019'}
+              breakRow
+              canCopy
             />
           </DrawerBody>
 
