@@ -25,7 +25,7 @@ export const WeddingCard = () => {
       navigator.platform.indexOf('iPod') != -1
     ) {
       window.open(
-        'maps.app.goo.gl/2Nf3dwM1YtWqe4mg9?g_st=ic'
+        'https://maps.app.goo.gl/2Nf3dwM1YtWqe4mg9?g_st=ic'
       );
     } else {
       /* else use Google */
