@@ -85,9 +85,9 @@ export const WeddingCard = () => {
                 <Text textAlign="center">
                   {t('For sharing our special day')}
                 </Text>
-                <Text textAlign="center"> {t('02 . 10 . 2022')}</Text>
+                <Text textAlign="center"> {t('22 . 01 . 2026')}</Text>
                 <Heading fontSize="sm" fontWeight="normal">
-                  {t('ĐỨC & LINH')}
+                  {t('HIẾU & QUỲNH')}
                 </Heading>
               </VStack>
             </Box>

@@ -26,8 +26,8 @@ export const ThankYou = () => {
           </Heading>
           <VStack spacing="2">
             <Text textAlign="center"> {t('For sharing our special day')}</Text>
-            <Text textAlign="center"> {t('02 . 10 . 2022')}</Text>
-            <Text fontWeight="semibold"> {t('TIẾN ĐỨC & TRÚC LINH')}</Text>
+            <Text textAlign="center"> {t('22 . 01 . 2026')}</Text>
+            <Text fontWeight="semibold"> {t('HIẾU & QUỲNH')}</Text>
           </VStack>
         </Flex>
       </Center>
